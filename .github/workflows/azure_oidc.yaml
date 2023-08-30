@@ -19,6 +19,9 @@ jobs:
     environment:
      name: staging.azure
     steps:
+        - name: Checkout master
+          uses: actions/checkout@v2
+          
         - name: az cli login
           uses: azure/login@v1
           with:
@@ -28,7 +31,7 @@ jobs:
             enable-AzPSSession: false
 
          # Deploy Bicep file
-        - name: deploy
+        - name: deploy bicep file
           uses: azure/arm-deploy@v1
           with:
             subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
