@@ -1,4 +1,4 @@
-name: workflow to deploy a basic web app
+name: workflow to deploy a lamp stack
 
 on:
   push:
