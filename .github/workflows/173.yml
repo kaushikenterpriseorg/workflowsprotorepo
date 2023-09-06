@@ -36,8 +36,8 @@ jobs:
           with:
             subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
             resourceGroupName: ${{ secrets.AZURE_RG }}
-            template: https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/application-workloads/wordpress/wordpress-single-vm-ubuntu/azuredeploy.json
-            parameters: https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/application-workloads/wordpress/wordpress-single-vm-ubuntu/azuredeploy.parameters.json
+            template: https://raw.githubusercontent.com/kaushikenterpriseorg/workflowsprotorepo/main/infra/wordpress-single-vm-ubuntu/azuredeploy.json?token=GHSAT0AAAAAACHH2X77IG7ZXCEZJDMTBQZ2ZHY73R
+            parameters: https://raw.githubusercontent.com/kaushikenterpriseorg/workflowsprotorepo/main/infra/wordpress-single-vm-ubuntu/azuredeploy.parameters.json?token=GHSAT0AAAAAACHH2X77IG7ZXCEZJDMTBQZ2ZHY73RA
             failOnStdErr: false
       
         
