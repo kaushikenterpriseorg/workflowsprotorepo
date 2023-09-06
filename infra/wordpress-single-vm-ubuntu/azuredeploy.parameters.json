@@ -16,6 +16,9 @@
     },
     "authenticationType": {
       "value": "sshPublicKey"
+    },
+    "adminPasswordOrKey": {
+      "value": "GEN-SSH-PUB-KEY"
     }
   }
 }
