@@ -37,6 +37,7 @@ jobs:
             subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
             resourceGroupName: ${{ secrets.AZURE_RG }}
             template: infra/wordpress-single-vm-ubuntu/azuredeploy.json
+            parameters: infra/wordpress-single-vm-ubuntu/azuredeploy.parameters.json
             failOnStdErr: false
       
         
