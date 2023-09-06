@@ -55,7 +55,7 @@
         "metadata": {
             "description": "The base URI where artifacts required by this template are located including a trailing '/'"
         },
-        "defaultValue": "[deployment().properties.template.uri]"
+        "defaultValue": ""
     },
     "_artifactsLocationSasToken": {
         "type": "securestring",
