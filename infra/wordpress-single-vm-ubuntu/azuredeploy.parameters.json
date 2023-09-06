@@ -14,17 +14,8 @@
     "vmSize": {
       "value": "Standard_D2_v3"
     },
-    "adminPasswordOrKey": {
-      "value": null
-    },
     "authenticationType": {
       "value": "sshPublicKey"
-    },
-    "_artifactsLocation": {
-      "value": null
-    },
-    "_artifactsLocationSasToken": {
-      "value": null
     }
   }
 }
